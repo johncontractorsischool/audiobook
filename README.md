@@ -1,4 +1,4 @@
-# Мне повезло воплотить свои мечты
+# МНЕ ПОВЕЗЛО ВОПЛОТИТЬ СВОИ МЕЧТЫ
 
 Russian audiobook site for Leonid Vorontsov, based on the supplied desktop/mobile designs and chapter table.
 

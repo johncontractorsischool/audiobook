@@ -1,6 +1,6 @@
 {
   "locale": "ru",
-  "title": "Мне повезло воплотить свои мечты",
+  "title": "МНЕ ПОВЕЗЛО ВОПЛОТИТЬ СВОИ МЕЧТЫ",
   "author": "Леонид Воронцов",
   "parts": [
     {
@@ -177,7 +177,7 @@
       "number": 13,
       "part": 2,
       "title": "Нет ничего невозможного, если доводить начатое до конца",
-      "image": "assets/chapter-13.webp",
+      "image": "assets/chapter-13-v2.png",
       "audio": "audio/ru/chapter-13.mp3",
       "duration": 903.384,
       "bytes": 7227557,

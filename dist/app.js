@@ -144,7 +144,7 @@ async function start() {
       $('next').disabled = player.index === tracks.length - 1;
       $('speed').value = String(store.data.rate);
       if (previousTrack !== current.id && 'mediaSession' in navigator && 'MediaMetadata' in window) {
-        navigator.mediaSession.metadata = new MediaMetadata({ title: fullTitle(current), artist: content.author, album: content.title, artwork: [{ src: new URL(current.image, location.href).href, type: 'image/webp' }] });
+        navigator.mediaSession.metadata = new MediaMetadata({ title: fullTitle(current), artist: content.author, album: content.title, artwork: [{ src: new URL(current.image, location.href).href, type: current.image.endsWith('.png') ? 'image/png' : 'image/webp' }] });
       }
       previousTrack = current.id;
     }
