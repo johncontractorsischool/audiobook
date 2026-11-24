@@ -1,0 +1,10 @@
+{
+  "name": "lucky-to-live-my-dreams",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check dist/app.js && node --check dist/player.js && node --test tests/player.test.mjs && node scripts/check.mjs"
+  }
+}

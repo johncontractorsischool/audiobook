@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#392936">
+  <meta name="description" content="«Мне повезло воплотить свои мечты» — мемуары Леонида Воронцова. Слушайте и скачивайте 24 главы аудиокниги на русском языке.">
+  <title>Мне повезло воплотить свои мечты — Леонид Воронцов</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/hero.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#chapters">Перейти к главам</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" id="author">Леонид Воронцов</a>
+      <button class="menu-toggle icon-button" id="menu-toggle" aria-label="Выбрать язык" aria-expanded="false" aria-controls="language-menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <nav class="language-menu" id="language-menu" aria-label="Язык сайта"></nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="book-title">
+      <div class="hero-shade"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1 id="book-title">Мне повезло<br>воплотить свои мечты</h1>
+          <p class="eyebrow memoir" id="memoir">Мемуары</p>
+          <a class="primary-button hero-button" href="#chapters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 14v-3a8 8 0 0 1 16 0v3M4 12H3v7h4v-7H4Zm16 0h1v7h-4v-7h3Z"/></svg><span id="hero-cta">Слушать историю</span></a>
+        </div>
+      </div>
+      <span class="hero-caption" aria-hidden="true">Леонид Воронцов</span>
+    </section>
+    <section class="library container" id="chapters" aria-labelledby="library-title">
+      <div class="section-intro">
+        <div class="ornament-title"><span></span><h2 id="library-title">Слушать историю</h2><span></span></div>
+        <p id="library-description">Слушайте онлайн или скачивайте главы, чтобы история всегда была рядом.</p>
+        <p class="book-stats" id="book-stats">4 части · 24 главы</p>
+      </div>
+      <section class="resume-banner" id="resume-banner" aria-label="Продолжить прослушивание" hidden>
+        <div class="resume-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h12v18l-6-4-6 4V3Z"/></svg></div>
+        <div class="resume-copy"><p class="eyebrow" id="resume-label">Вы остановились здесь</p><p id="resume-title"></p><span id="resume-time"></span></div>
+        <button class="primary-button" id="resume-button">Продолжить</button>
+      </section>
+      <nav class="part-nav" id="part-nav" aria-label="Части аудиокниги"></nav>
+      <div id="chapter-list" aria-busy="true"><p class="loading">Загружаем оглавление…</p></div>
+      <noscript><p>Включите JavaScript для прослушивания и сохранения прогресса. <a href="https://drive.google.com/drive/folders/1Z-iqLGOagLfT5Oerm9QwT03PangeSC4h">Скачать аудиофайлы из Google Диска</a>.</p></noscript>
+    </section>
+    <aside class="listening-note container">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4V3Z"/></svg>
+      <h2 id="note-title">Ваша история продолжится</h2>
+      <p id="note-text">Мы запоминаем главу и место остановки в этом браузере. Возвращайтесь к книге в удобное время — регистрация не нужна.</p>
+      <p class="fine-print" id="storage-detail">Прогресс сохраняется на этом устройстве. Очистка данных браузера или приватный режим могут удалить его.</p>
+      <button class="text-button" id="reset-progress" hidden>Сбросить прогресс прослушивания</button>
+    </aside>
+  </main>
+  <footer class="site-footer"><a href="#top" class="wordmark" id="footer-author">Леонид Воронцов</a><p id="footer-title">Мне повезло воплотить свои мечты</p><a href="#chapters" id="footer-link">К оглавлению</a></footer>
+  <section class="player-dock" id="player-dock" aria-label="Аудиоплеер" hidden>
+    <div class="dock-track"><img id="dock-image" alt="" width="48" height="48"><div><p class="eyebrow" id="dock-label"></p><p id="dock-title"></p></div></div>
+    <div class="dock-controls">
+      <button class="icon-button" id="previous" aria-label="Предыдущая глава"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h2v14H6zm13 0v14L9 12Z" fill="currentColor"/></svg></button>
+      <button class="icon-button skip-button" id="backward" aria-label="Назад на 15 секунд"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 7a8 8 0 1 1-2 8M6 2v5H1"/></svg><span>15</span></button>
+      <button class="play-button dock-play" id="dock-play" aria-label="Воспроизвести"></button>
+      <button class="icon-button skip-button" id="forward" aria-label="Вперёд на 15 секунд"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M18 7a8 8 0 1 0 2 8M18 2v5h5"/></svg><span>15</span></button>
+      <button class="icon-button" id="next" aria-label="Следующая глава"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 5h2v14h-2zM5 5v14l10-7Z" fill="currentColor"/></svg></button>
+    </div>
+    <div class="dock-seek"><span id="dock-current">0:00</span><input id="dock-range" type="range" min="0" max="1" step="0.1" value="0" aria-label="Позиция воспроизведения"><span id="dock-duration">0:00</span></div>
+    <label class="speed-label"><span id="speed-label">Скорость</span><select id="speed" aria-label="Скорость воспроизведения"><option value="0.75">0,75×</option><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option><option value="2">2×</option></select></label>
+  </section>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <audio id="audio" preload="none"></audio>
+</body>
+</html>

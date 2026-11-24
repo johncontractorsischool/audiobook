@@ -1,0 +1,319 @@
+{
+  "locale": "ru",
+  "title": "Мне повезло воплотить свои мечты",
+  "author": "Леонид Воронцов",
+  "parts": [
+    {
+      "id": 1,
+      "title": "Из Узбекистана в Америку",
+      "start": 1,
+      "end": 6
+    },
+    {
+      "id": 2,
+      "title": "В поисках своих увлечений и собственного пути",
+      "start": 7,
+      "end": 13
+    },
+    {
+      "id": 3,
+      "title": "Пуская корни, расправляя крылья",
+      "start": 14,
+      "end": 18
+    },
+    {
+      "id": 4,
+      "title": "От рассеянного склероза к трансплантации стволовых клеток и новой жизни",
+      "start": 19,
+      "end": 24
+    }
+  ],
+  "tracks": [
+    {
+      "id": "preface",
+      "number": null,
+      "part": null,
+      "title": "Предисловие",
+      "image": "assets/preface.webp",
+      "audio": "audio/ru/preface.mp3",
+      "duration": 144.48,
+      "bytes": 1156237,
+      "sourceId": "1B4DH6mugd3HWHyM9H49T7xAgr8_GfBdf"
+    },
+    {
+      "id": "chapter-01",
+      "number": 1,
+      "part": 1,
+      "title": "Начало",
+      "image": "assets/chapter-01.webp",
+      "audio": "audio/ru/chapter-01.mp3",
+      "duration": 3166.728,
+      "bytes": 19000755,
+      "sourceId": "1jay2wpnsadLtX2HZFsFiAeVO7LDRNx1V"
+    },
+    {
+      "id": "chapter-02",
+      "number": 2,
+      "part": 1,
+      "title": "Школьные годы — всё меньше одноклассников, новые приключения и последнее прощание",
+      "image": "assets/chapter-02.webp",
+      "audio": "audio/ru/chapter-02.mp3",
+      "duration": 1154.904,
+      "bytes": 9239769,
+      "sourceId": "1WRyHeMtCWTVprR6z-RGVXgthbkpqzrOm"
+    },
+    {
+      "id": "chapter-03",
+      "number": 3,
+      "part": 1,
+      "title": "Иммиграция — первые перемены",
+      "image": "assets/chapter-03.webp",
+      "audio": "audio/ru/chapter-03.mp3",
+      "duration": 2297.856,
+      "bytes": 18383279,
+      "sourceId": "1QY8fe7D5PxiEZnwaNl2DTm9j-2cipOxN"
+    },
+    {
+      "id": "chapter-04",
+      "number": 4,
+      "part": 1,
+      "title": "Прибытие в Америку",
+      "image": "assets/chapter-04.webp",
+      "audio": "audio/ru/chapter-04.mp3",
+      "duration": 1872.696,
+      "bytes": 14981979,
+      "sourceId": "1JHdRXvDtHhoxfbQOgn3a4sDugIp4cAPk"
+    },
+    {
+      "id": "chapter-05",
+      "number": 5,
+      "part": 1,
+      "title": "Мунбим-Драйв — наш первый дом в Америке",
+      "image": "assets/chapter-05.webp",
+      "audio": "audio/ru/chapter-05.mp3",
+      "duration": 2725.2,
+      "bytes": 21802053,
+      "sourceId": "1e1fn50UecxeAH-8tEJMFAsIz1vrxl_DV"
+    },
+    {
+      "id": "chapter-06",
+      "number": 6,
+      "part": 1,
+      "title": "Годы, когда я едва не потерял себя",
+      "image": "assets/chapter-06.webp",
+      "audio": "audio/ru/chapter-06.mp3",
+      "duration": 987.312,
+      "bytes": 7898939,
+      "sourceId": "1igUhLtRlTBC-otHWo_0N_vzAWmGZUnFs"
+    },
+    {
+      "id": "chapter-07",
+      "number": 7,
+      "part": 2,
+      "title": "Видеостудия",
+      "image": "assets/chapter-07.webp",
+      "audio": "audio/ru/chapter-07.mp3",
+      "duration": 1513.944,
+      "bytes": 12111949,
+      "sourceId": "1r0DC12K_Dg7wjmV5_9yZmSStVz9tx_h1"
+    },
+    {
+      "id": "chapter-08",
+      "number": 8,
+      "part": 2,
+      "title": "Радиоведущий",
+      "image": "assets/chapter-08.webp",
+      "audio": "audio/ru/chapter-08.mp3",
+      "duration": 1030.176,
+      "bytes": 8241807,
+      "sourceId": "15O8B7rwaY1RPphzoOQOV2abT1eTMFIU-"
+    },
+    {
+      "id": "chapter-09",
+      "number": 9,
+      "part": 2,
+      "title": "Годы танцев",
+      "image": "assets/chapter-09.webp",
+      "audio": "audio/ru/chapter-09.mp3",
+      "duration": 664.056,
+      "bytes": 5312845,
+      "sourceId": "1FeZLUQcTjONiUs7LLYNrcsqw_MzWZQeN"
+    },
+    {
+      "id": "chapter-10",
+      "number": 10,
+      "part": 2,
+      "title": "Водные развлечения",
+      "image": "assets/chapter-10.webp",
+      "audio": "audio/ru/chapter-10.mp3",
+      "duration": 1255.896,
+      "bytes": 10047579,
+      "sourceId": "1N5SxKK5pUV1I0g4vgZJqIS9p_5jhvD05"
+    },
+    {
+      "id": "chapter-11",
+      "number": 11,
+      "part": 2,
+      "title": "Прыжки с парашютом",
+      "image": "assets/chapter-11.webp",
+      "audio": "audio/ru/chapter-11.mp3",
+      "duration": 1334.856,
+      "bytes": 10679259,
+      "sourceId": "14wltAchPL7HLaESa2c61H_gB6NxWDeaI"
+    },
+    {
+      "id": "chapter-12",
+      "number": 12,
+      "part": 2,
+      "title": "Полёты",
+      "image": "assets/chapter-12.webp",
+      "audio": "audio/ru/chapter-12.mp3",
+      "duration": 2203.272,
+      "bytes": 17626563,
+      "sourceId": "1c1M7EKJ0yzLljX-8qJTlYHo0U993zHIP"
+    },
+    {
+      "id": "chapter-13",
+      "number": 13,
+      "part": 2,
+      "title": "Нет ничего невозможного, если доводить начатое до конца",
+      "image": "assets/chapter-13.webp",
+      "audio": "audio/ru/chapter-13.mp3",
+      "duration": 903.384,
+      "bytes": 7227557,
+      "sourceId": "1Jvi1sOSHgekW8UUZNjgFtzrxFwodwRDU"
+    },
+    {
+      "id": "chapter-14",
+      "number": 14,
+      "part": 3,
+      "title": "Возвращение в колледж",
+      "image": "assets/chapter-14.webp",
+      "audio": "audio/ru/chapter-14.mp3",
+      "duration": 922.176,
+      "bytes": 7377825,
+      "sourceId": "1r_AOoHn0DoChfdmLjcY_pgFNx3yq3ugG"
+    },
+    {
+      "id": "chapter-15",
+      "number": 15,
+      "part": 3,
+      "title": "Вместе, несмотря ни на что",
+      "image": "assets/chapter-15.webp",
+      "audio": "audio/ru/chapter-15.mp3",
+      "duration": 2374.104,
+      "bytes": 18993259,
+      "sourceId": "1lNEfeyJkADPbrEfjgUNTRHmgG0ylHR33"
+    },
+    {
+      "id": "chapter-16",
+      "number": 16,
+      "part": 3,
+      "title": "Начало нашего бизнеса",
+      "image": "assets/chapter-16.webp",
+      "audio": "audio/ru/chapter-16.mp3",
+      "duration": 1694.112,
+      "bytes": 13553313,
+      "sourceId": "1Bog-RHkiZ3f06Ga5wNtf1wz1S5KR3DnT"
+    },
+    {
+      "id": "chapter-17",
+      "number": 17,
+      "part": 3,
+      "title": "Моя семья",
+      "image": "assets/chapter-17.webp",
+      "audio": "audio/ru/chapter-17.mp3",
+      "duration": 2091.576,
+      "bytes": 16733001,
+      "sourceId": "1_L3Jet3gvGpgC1gW5FOVsCbk5vElu7pm"
+    },
+    {
+      "id": "chapter-18",
+      "number": 18,
+      "part": 3,
+      "title": "Вера, сомнения и свобода",
+      "image": "assets/chapter-18.webp",
+      "audio": "audio/ru/chapter-18.mp3",
+      "duration": 1527.936,
+      "bytes": 12223911,
+      "sourceId": "1tB5UfdYzlPfIqdRuvr5g3KzoEzwyxzeW"
+    },
+    {
+      "id": "chapter-19",
+      "number": 19,
+      "part": 4,
+      "title": "Долгий путь к трансплантации стволовых клеток",
+      "image": "assets/chapter-19.webp",
+      "audio": "audio/ru/chapter-19.mp3",
+      "duration": 1640.832,
+      "bytes": 13127121,
+      "sourceId": "1ctZ0Jwd4HpADPWoTEu0CZuh2G7Y-O4vA"
+    },
+    {
+      "id": "chapter-20",
+      "number": 20,
+      "part": 4,
+      "title": "Начало месяца, который вернул мне жизнь",
+      "image": "assets/chapter-20.webp",
+      "audio": "audio/ru/chapter-20.mp3",
+      "duration": 3968.904,
+      "bytes": 23813877,
+      "sourceId": "1tUBs50JLCluDPSnR6fmPOcsxhf_uFu2I"
+    },
+    {
+      "id": "chapter-21",
+      "number": 21,
+      "part": 4,
+      "title": "Моё послание в День благодарения",
+      "image": "assets/chapter-21.webp",
+      "audio": "audio/ru/chapter-21.mp3",
+      "duration": 640.824,
+      "bytes": 5127031,
+      "sourceId": "1DHae1LUrUJ0G29N0nSUhSgXtqs6GPOBw"
+    },
+    {
+      "id": "chapter-22",
+      "number": 22,
+      "part": 4,
+      "title": "Изоляция",
+      "image": "assets/chapter-22.webp",
+      "audio": "audio/ru/chapter-22.mp3",
+      "duration": 1735.392,
+      "bytes": 13883527,
+      "sourceId": "1OX1JMhLcaeoVuDsV_i_IRJD-5UflxZS2"
+    },
+    {
+      "id": "chapter-23",
+      "number": 23,
+      "part": 4,
+      "title": "От страха к надежде",
+      "image": "assets/chapter-23.webp",
+      "audio": "audio/ru/chapter-23.mp3",
+      "duration": 1949.328,
+      "bytes": 15595037,
+      "sourceId": "14hWCrJUHg5iA-U8erXITV6o7csxWHOK3"
+    },
+    {
+      "id": "chapter-24",
+      "number": 24,
+      "part": 4,
+      "title": "Возвращение домой",
+      "image": "assets/chapter-24.webp",
+      "audio": "audio/ru/chapter-24.mp3",
+      "duration": 967.272,
+      "bytes": 7738585,
+      "sourceId": "1UzkQpLP4E753N5l2Evn_QXKR0juEwBjD"
+    },
+    {
+      "id": "afterword",
+      "number": null,
+      "part": null,
+      "title": "Послесловие",
+      "image": "assets/afterword.webp",
+      "audio": "audio/ru/afterword.mp3",
+      "duration": 261.384,
+      "bytes": 2091469,
+      "sourceId": "10OljcI5BjP1TEhfFedNWJd2vAx9NFk_a"
+    }
+  ]
+}
