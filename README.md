@@ -22,6 +22,12 @@ Upload the **contents of `dist/`** into the site's document root. This is a port
 
 The `.openai/hosting.json` file identifies the registered private Sites review project. Publication requires approval to upload the recordings. This file is not required for another web host. Public release and a custom domain can be configured separately.
 
+## Deploy to Vercel
+
+Import this GitHub repository and leave **Root Directory** at the repository root. The included `vercel.json` selects the **Other** framework preset, skips installation and building, and sets **Output Directory** to `dist`. Vercel then serves `dist/index.html` at `/`, with the audio, images, and chapter data at their expected paths.
+
+Deploy the latest `main` commit after changing these settings. Serving the repository root without this output setting produces a 404 at `/`, even though `/dist/index.html` exists. No application rewrite or server function is needed.
+
 ## Content and audio
 
 - `dist/locales/ru.json`: exact Russian chapter titles, four parts, thumbnail paths, durations, sizes, and source file references.
