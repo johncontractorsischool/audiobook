@@ -20,7 +20,7 @@ npm run check
 
 Upload the **contents of `dist/`** into the site's document root. This is a portable static site; it needs no Node.js runtime, database, or account system in production. Keep the directory structure intact. Enable HTTPS, serve MP3s as `audio/mpeg`, and preserve HTTP byte-range requests for seeking. The included local server demonstrates the expected range behavior.
 
-The `.openai/hosting.json` file identifies the private Sites review deployment. It is not required for another web host. Public release and a custom domain can be configured separately.
+The `.openai/hosting.json` file identifies the registered private Sites review project. Publication requires approval to upload the recordings. This file is not required for another web host. Public release and a custom domain can be configured separately.
 
 ## Content and audio
 
@@ -48,6 +48,6 @@ Progress belongs to one browser profile and one site origin. It does not sync to
 
 ## Verification
 
-The test suite covers position restoration, chapter switching, corrupt or blocked storage, seeking before metadata loads, reset behavior, completion, and duration formatting. The content check verifies all 26 audio/image pairs, the 24 numbered chapters, the four part ranges, and exact file sizes. Browser QA includes actual MP3 playback, reload restoration, mobile/desktop layout, keyboard controls, and downloads.
+The eight automated tests cover position restoration, chapter switching, corrupt or blocked storage, seeking before metadata loads, reset behavior, completion, and duration formatting. The content check verifies all 26 audio/image pairs, the 24 numbered chapters, the four part ranges, and exact file sizes. Browser QA verified actual MP3 playback, exact paused-position and speed restoration after reload, mobile/desktop layouts, the language menu, and keyboard seeking on the longest recording. HTTP checks verified MP3 responses and byte-range seeking. Browser access became unavailable after the final change from animated to immediate section scrolling, so that final CSS-only adjustment could not be checked visually again.
 
 The PDF is treated as design/content reference, not as authorization to access an unrelated server or make deadline commitments.
