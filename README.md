@@ -33,7 +33,7 @@ Deploy the latest `main` commit after changing these settings. Serving the repos
 - `dist/locales/ru.json`: exact Russian chapter titles, four parts, thumbnail paths, durations, sizes, and source file references.
 - `dist/assets/`: supplied cover art and all 26 illustrations, extracted from the PDF, plus the locally served Caveat font.
 - `dist/audio/ru/`: 24 chapters, foreword, and afterword. Total duration: approximately 11 hours 24 minutes.
-- The web copies are mono MP3 at 64 kbps (48 kbps for the two longest recordings), 24 kHz. They contain the full recordings; this reduces the initial collection from about 1 GB to about 300 MiB. Originals are retained in the parent workspace at `source-review/audio-originals/` and can replace the web files if desired. Regenerate durations and file sizes when replacing audio.
+- The chapter and afterword web copies are mono MP3 at 64 kbps (48 kbps for the two longest recordings), 24 kHz. The preface was replaced on November 25, 2026 with the supplied 128 kbps MP3, preserved without re-encoding (2:49). The files contain the full recordings; this reduces the initial collection from about 1 GB to about 300 MiB. Originals are retained in the parent workspace at `source-review/audio-originals/` and can replace the web files if desired. Regenerate durations and file sizes when replacing audio.
 
 The foreword and afterword are outside the four numbered parts. Part 1 contains chapters 1–6, part 2 chapters 7–13, part 3 chapters 14–18, and part 4 chapters 19–24.
 
